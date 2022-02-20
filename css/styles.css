@@ -76,7 +76,7 @@ body {
   background-color: var(--button-and-logo-color);
   border-radius: 2px;
   left: 0;
-  bottom: -35px;
+  bottom: -34px;
 }
 
 .header__logo {
@@ -175,6 +175,8 @@ body {
 .footer__adress__unit__list__street__building {
   color: var(--logo-color);
   text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
 }
 .footer-item {
   text-decoration: none;
@@ -709,6 +711,7 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   top: 14px;
   right: 14px;
+  cursor: pointer;
 }
 .modal-close-btn:hover,
 .modal-close-btn:focus {
@@ -790,6 +793,7 @@ body {
   line-height: 30px;
   color: #ffffff;
   margin: 0 auto;
+  cursor: pointer;
 }
 .text-label-form {
   font-size: 12px;
@@ -854,6 +858,7 @@ body {
   color: #ffffff;
   align-items: center;
   text-align: center;
+  cursor: pointer;
 }
 .icon-send-button {
   display: inline-block;
@@ -881,6 +886,7 @@ body {
   height: 15px;
   border: 2px solid #252525;
   border-radius: 2px;
+  cursor: pointer;
 }
 .checkbox:checked + .checkbox-icon {
   background-color: var(--button-and-logo-color);
